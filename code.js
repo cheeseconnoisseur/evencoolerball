@@ -7,10 +7,9 @@ var right = window.innerWidth
 
 function setup() {
   createCanvas(right, up);
-    grav = createVector(0,0.01)
+    grav = createVector(0,0.1)
   balls.push(new Ball(random(width - width + 20, width - 20), random(height - height + 20, height - 100)));
 
-//  grav = grav.mult(1)
 }
 
 function draw(){
